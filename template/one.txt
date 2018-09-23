@@ -1,0 +1,18 @@
+package main
+
+import "text/template"
+
+
+func main () {
+tpl. err := template.ParseFiles ("one.text", "two.txt )
+if err !:= nil {
+    log.Fatal("whoops", err)
+
+}
+
+tpl.ExecuteTemplate(os.Stdout, "one.txt. nil)
+
+
+}
+
+
